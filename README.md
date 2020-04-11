@@ -1,3 +1,13 @@
+## :computer: First Program in Java
+
+```
+public class FirstProgram {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+```
+
 ## 🤔  Documentation
 Java language documentation can be found at: https://docs.oracle.com/en/java/
 ## :memo: About
