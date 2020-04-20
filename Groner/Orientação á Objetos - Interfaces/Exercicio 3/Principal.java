@@ -18,11 +18,33 @@ public class Principal {
 		f1[4] = q2;
 		f1[5] = t1;
 		
-		c1.calculaVolume();
-		c2.calculaArea();
-		c3.calculaVolume();
-		p1.calculaVolume();
-		q2.calculaArea();
-		t1.calculaArea();
+		// downcasting dentro do laço for-each
+		for(FiguraGeometrica figura: f1) {
+			if(figura instanceof Cilindro) {
+				Cilindro c1c = (Cilindro) figura;
+				c1c.calculaVolume();
+			}
+			if(figura instanceof Circulo) {
+				Circulo c2c = (Circulo) figura;
+				c2c.calculaArea();
+			}
+			if(figura instanceof Cubo) {
+				Cubo c3c = (Cubo) figura;
+				c3c.calculaVolume();
+			}
+			if(figura instanceof Piramide) {
+				Piramide p1c = (Piramide) figura;
+				p1c.calculaVolume();
+			}
+			if(figura instanceof Quadrado) {
+				Quadrado q1c = (Quadrado) figura;
+				q1c.calculaArea();
+			}
+			if(figura instanceof Triangulo) {
+				Triangulo t1c = (Triangulo) figura;
+				t1c.calculaArea();
+			}
+			
+		}
 	}
 }
