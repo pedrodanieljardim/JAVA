@@ -9,7 +9,7 @@ public class Teste {
 			}catch(java.lang.ArithmeticException e1) {
 				System.out.println(" Erro ao divir por zero...");
 			}catch(java.lang.ArrayIndexOutOfBoundsException e2) {
-				System.out.println(" Posição do array inválida...");
+				System.out.println(" Posição do array inválida....");
 			}
 			
 		}
