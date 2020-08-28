@@ -1,1 +1,1 @@
-Repositório sobre estudos sobre a Linguagem Java
+Repository on studies on Java Language
